@@ -72,7 +72,7 @@ ilsq
 
 ## Screenshot
 
-![ils demo](screenshots/demo.png)
+![ils demo](screenshot/demo.png)
 
 ## Configuration
 
