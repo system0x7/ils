@@ -70,6 +70,20 @@ ilsq
 - `Ctrl+E` - Open file in editor
 - `Ctrl+Q` - Quick exit
 
+## Changing Default Text Editor
+The script uses your system's `$EDITOR` environment variable. To change it:
+```bash
+# Example for nvim
+ 
+echo 'export EDITOR=nvim' >> ~/.bashrc
+source ~/.bashrc
+
+# Other editors:
+# export EDITOR=vim
+# export EDITOR=code  # VS Code
+# export EDITOR=nano
+```
+
 ## Screenshot
 
 ![ils demo](screenshot/demo.png)
